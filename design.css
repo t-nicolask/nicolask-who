@@ -1,0 +1,158 @@
+/*General*/
+html {
+	background-image: url("imagessite/backgroundimage.jpg");
+	color: #354241;
+	font-family: 'Roboto', Arial, serif;
+	margin: 8px;
+	display: block;
+}
+
+/*media*/
+@media (max-width: 540px) {
+	.container {
+	    width: 300px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+	    width: 500px;
+	}
+}
+@media (max-width: 960px) {
+	.container {
+	    width: 700px;
+	}
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+a:hover {
+	opacity: 0.6;
+}
+
+div	{
+	display: block;
+}
+
+.container	{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color : white;
+	padding: 40px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 3px; 
+	text-align: left;		
+}
+
+
+/*Banner*/
+
+#nico {
+	text-align: center;
+	width: 100px;
+}
+
+.banner {
+	background-size: cover;
+	object-fit: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	box-shadow: none;	
+	border-radius: 0px;
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px; 
+
+}
+
+.banner p {
+	margin-bottom: 40px;
+}
+
+.btn-blue {
+	background-color: #2C53D2;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 25px;	
+	margin: 5px;
+}
+
+.btn-white {
+	background-color: white;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 25px;	
+	margin: 5px;
+}
+
+/*Experiences*/
+
+.experience-all {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.experiences {
+	width: 300px;
+}
+
+.experiences img {
+	text-align: center;
+}
+
+.list-inline {
+	padding-left: 10px;
+	list-style: square;
+}
+
+
+/*Who am I in three pics*/
+.who-cards {
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+#picuterbanners {
+	width:300px;
+	border-radius: 3px;
+}
+
+.who-card {
+	width: 300px;
+	flex-basis: 300px;
+	flex-grow: 1;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+/*People who inspired me*/
+.logo {
+	width: 60px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+#last {	
+	margin-bottom: 40px;
+}
+
+#lasty {
+	text-align: center;
+}
